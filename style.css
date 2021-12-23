@@ -1,0 +1,88 @@
+body{
+    width: 1000px;
+    background-color: white;
+    margin: 0px auto;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding-inline: 20px;
+    height: 70px;
+}
+.search{
+    width: 400px;
+}
+
+#row1{
+    background-color: white;
+    display: flex;
+    gap: 40px;
+}
+
+#row2{
+    background-color: white;
+}
+
+.container{
+    background: white;
+    /* margin: 0px auto; */
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    width: 600px;
+    border: 4px solid black;
+    margin-top: 20px;
+    
+}
+
+.side{
+    border: 4px solid black;
+    height: 200px;
+    width: 350px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ninja{
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+.links{
+    padding-right: 10px;
+    width: 300px;
+    
+}
+
+form{
+    margin-top: -10px;
+}
+
+.you{
+    padding: 10px;
+}
+
+.login{
+    background: royalblue;
+    box-shadow: 3px 3px black;
+    color: white;
+}
+
+.likes{
+    background: gold;
+    box-shadow: 3px 3px black;
+    border: 2px solid black;
+}
+
+.def{
+    background: rgb(57, 163, 57);
+    box-shadow: 3px 3px black;
+    border: 2px solid black;
+}
+
+.ninja p{
+    margin-top: -20px;
+}
